@@ -395,7 +395,7 @@ main {
     height: 300px;
 }
 .menu {
-    /* [disabled]width: 103%; */
+    width: 103%;
     height: 1121px;
     background-size: cover;
 }
@@ -417,6 +417,13 @@ body {
     padding-left: auto;
     padding-right: auto;
 }
+#submit li a {
+    width: 142px;
+    /* [disabled]margin-right: 32px; */
+    height: 45px;
+}
+
+
 
 
 
