@@ -395,7 +395,7 @@ main {
     height: 300px;
 }
 .menu {
-    width: 100%;
+    /* [disabled]width: 103%; */
     height: 1121px;
     background-size: cover;
 }
