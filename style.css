@@ -397,7 +397,31 @@ main {
 .menu {
     width: 100%;
     height: 1121px;
+    background-size: cover;
 }
+#feature {
+    width: 100%;
+    font-size: 30px;
+}
+#about .details1 {
+    font-size: 120%;
+    height: 257px;
+}
+#choose div {
+    font-size: 120%;
+}
+.menu div {
+    font-size: 130%;
+    width: 120%;
+    left: -116px;
+}
+#submit li a {
+}
+
+
+
+
+
 body {
     padding-left: auto;
     padding-right: auto;
