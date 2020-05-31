@@ -426,6 +426,11 @@ body {
     padding-left: auto;
     padding-right: auto;
 }
+#submit li a {
+    width: 121px;
+}
+
+
 
 
 
