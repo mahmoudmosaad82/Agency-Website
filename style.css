@@ -408,11 +408,8 @@ main {
     height: 257px;
 }
 #choose div {
-    font-size: 120%;
+    font-size: 0%;
 }
-.menu div {
-}
-
 
 
 
