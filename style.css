@@ -366,21 +366,55 @@ main {
 	}
 	
 	.cars{
-		width: 80%;
-		margin: 10px auto;
-		float: none;
+    width: 638px;
+    margin: 10px auto;
+    float: none;
 	}
+.cars img {
+    width: 95%;
+}
+
 	
 	
 }
 
 @media screen and (min-width:992px){
+
 	
 }
 
 
 
 @media screen and (min-width:640px) and (max-width:992px){
+.cars {
+    width: 520px;
+}
+.cars img {
+    width: 520px;
+}
+.menu {
+    width: 992px;
+}
+#submit {
+    width: 400px;
+    height: 261px;
+    left: -348px;
+    position: absolute;
+}
+.menu div {
+    width: 400px;
+    left: 224px;
+}
+body {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+
+
+
+
 }
 #client_feedback{
 width: 600px;
