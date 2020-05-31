@@ -128,8 +128,8 @@
       <label for="email">Email:</label>
       <input name="email" type="email" id="email" placeholder="email@email.com" tabindex="20" required="required">
       <br>
-      <label for="psw">Password:</label>
-      <input type="password" name="psw" id="psw" tabindex="40">
+     <label for="psw">Password</label>
+  <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must start with uppercase character. Must include 8 characters no more no less. Must include one digit at least ,Must include one special character like - , _ , #, &, and * , No white spaces allowed in the password" required maxlength="8">
       <fieldset>
         <legend>Gender</legend>
         <table width="200">
@@ -283,7 +283,7 @@ myInput.onkeyup = function() {
   }
 
   // Validate length
-  if(myInput.value.length >= 8) {
+  if(myInput.value.length = 8) {
     length.classList.remove("invalid");
     length.classList.add("valid");
   } else {
