@@ -120,13 +120,13 @@
 	</header>
   <form action="send form to an email.php" method="get" name="client_feedback" id="client_feedback">
     <label for="firstname">First Name:</label>
-      <input name="firstname" type="text" class="field" id="firstname" tabindex="30" value="Mr.">
+      <input name="firstname" type="text" class="field" id="firstname" tabindex="30" required="required">
       <br>
       <label for="lastname">Last Name:</label>
       <input name="lastname" type="text" required="required" class="field" id="lastname" tabindex="10">
       <br>
       <label for="email">Email:</label>
-      <input name="email" type="email" id="email" placeholder="email@email.com" tabindex="20">
+      <input name="email" type="email" id="email" placeholder="email@email.com" tabindex="20" required="required">
       <br>
       <label for="psw">Password:</label>
       <input type="password" name="psw" id="psw" tabindex="40">
@@ -166,7 +166,7 @@
         </table>
       </fieldset>
 	    <label for="number"> PHONE:</label>
-      <input  name="number" id="mob" placeholder="+201229709200">
+      <input  name="number" id="mob" placeholder="+201229709200" required="required">
       <label for="marital" id="mar">Marital Status:</label>
           <select name="marital" id="marital">
         <option value="single">Single</option>
